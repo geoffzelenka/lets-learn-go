@@ -1,10 +1,10 @@
-package main
+package hello
 
-import "fmt"
+import (
+	"fmt"
+	"math/rand"
+)
 
-import "rsc.io/quote"
-
-func main() {
-	fmt.Println(quote.Go())
+func Hello() {
+	fmt.Println("Hello world! Lets get random: ", rand.Intn(10), " have fun!")
 }
-
