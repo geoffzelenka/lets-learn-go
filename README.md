@@ -1,5 +1,5 @@
 # lets-learn-go
-Learning go
+Learning go, following through examples at go.dev/tour/list
 
 # Setting up the dev environment
 Debian as a golang-<version> in its apt repo

@@ -21,6 +21,6 @@ func Sqrt(x float64) (z float64) {
 }
 
 func main() {
-	val := 4
+	val := 2
 	fmt.Println("Lets check:\n\t", Sqrt(float64(val)), "\n ?== \n\t", math.Sqrt(float64(val)))
 }
